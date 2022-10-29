@@ -72,3 +72,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.profile{
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+  
+}
+
+@font-face {font-family:  Press start k; src: url('../assets/prStartk.ttf')}

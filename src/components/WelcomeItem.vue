@@ -7,11 +7,10 @@
       <h3>
         <slot name="heading"></slot>
       </h3>
-      <slot></slot>
+      <slot name="text"></slot>
     </div>
   </div>
 </template>
-
 <style scoped>
 .item {
   margin-top: 2rem;
@@ -83,3 +82,5 @@ h3 {
   }
 }
 </style>
+
+

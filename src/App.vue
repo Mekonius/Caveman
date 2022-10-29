@@ -7,8 +7,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     
     <div class="wrapper">
-      <img alt="Vue logo"  src="@/assets/caveman.png" width="350" height="350" />
-      <HelloWorld msg="Caveman games" />
+      <img alt="caveman"  src="@/assets/caveman.png" width="350" height="350" />
+      <HelloWorld msg="Caveman Games" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
