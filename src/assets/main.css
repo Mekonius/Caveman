@@ -32,4 +32,21 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+
+  .cardborder {
+    left: -26px;
+    border: 5px outset var(--color-border);
+    background: var(--color-background);
+    border-radius: 5%;
+    padding: 10px;
+  }
+
+  .profile{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-right: 20px;
+  }
+
 }

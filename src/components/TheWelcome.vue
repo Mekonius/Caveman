@@ -33,8 +33,8 @@ import CommunityIcon from './icons/IconCommunity.vue'
     </template>
     <template #heading><p class="orange">Game Design matters</p></template>
     <template #text>
-    <p>We aim to put Gamedesign above anything else, everyone can make a shiny 8k dessert with unreal engine, we aim to take a different path</p>
-    <h1>Less is more</h1>
+    <p class="w-full">We aim to put Gamedesign above anything else, everyone can make a shiny 8k desert with unreal engine, we aim to take a different path</p>
+    <h1 class="orange">Less is more</h1>
   </template>
   </WelcomeItem>
 

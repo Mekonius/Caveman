@@ -1,91 +1,130 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
+import AboutUsItem from './AboutUsItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
+import IconSupportIcon from './icons/IconSupport.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 </script>
 
 <template>
-  <WelcomeItem>
+
+
+
+  <AboutUsItem >
     <template #icon>
-      <DocumentationIcon />
+      <CommunityIcon />
+      </template>
+      <template #heading class="flex-0 flex-row ml-auto">
+        <div>
+          <p class="orange">Kenneth</p>
+        </div>
+      </template>
+
+      <template #imageHolder>
+        <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      </template>
+      
+      <template #text>
+        <div>
+          <p class="AboutText">
+            Teacher at Aarhustech (maybe IOS dev) 
+          </p>
+          <p>
+            
+          </p>
+            
+        </div>
     </template>
-    <template #heading><p class="orange">Kenneth</p></template>
+
+  </AboutUsItem>
+
+  <AboutUsItem>
+    <template #icon>
+      <CommunityIcon />
+    </template>
+    <template #heading><p class="orange">Mads</p></template>
     <template #text>
-      <div class="border-spacing-1 border-dotted border-gray-700 border-4 ">
+      <div>
         <p>
-          <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+
 
         </p>
-        <p>
-          Teacher at Aarhustech
-
+        <p class="AboutText">
+          The new guy !!!
         </p>
       </div>
     </template>
 
-  </WelcomeItem>
+    <template #imageHolder>
+        <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      </template>
 
-  <WelcomeItem>
+  </AboutUsItem>
+
+  <AboutUsItem>
     <template #icon>
-      <DocumentationIcon />
+      <CommunityIcon />
     </template>
     <template #heading><p class="orange">Michael</p></template>
     <template #text>
-      <div class="border-spacing-1 border-dotted border-gray-700 border-4 ">
-        <p>
-          <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      <div>
 
-        </p>
-        <p>
+        <p class="AboutText">
           student at Aarhustech
 
         </p>
       </div>
     </template>
 
-  </WelcomeItem>
+    <template #imageHolder>
+        <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      </template>
 
-  <WelcomeItem>
+  </AboutUsItem>
+
+  <AboutUsItem>
     <template #icon>
-      <DocumentationIcon />
+      <CommunityIcon />
     </template>
     <template #heading><p class="orange">Pierre</p></template>
     <template #text>
-      <div class="border-spacing-1 border-dotted border-gray-700 border-4 ">
-        <p>
-          <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
-
-        </p>
-        <p>
-          Teacher at Aarhustech
+      <div>
+        <p class="AboutText">
+          student at Aarhustech
 
         </p>
       </div>
     </template>
 
-  </WelcomeItem>
+    <template #imageHolder>
+        <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      </template>
 
-  <WelcomeItem>
+  </AboutUsItem>
+
+  <AboutUsItem>
     <template #icon>
-      <DocumentationIcon />
+      <CommunityIcon />
     </template>
     <template #heading><p class="orange">Victor</p></template>
     <template #text>
-      <div class="border-spacing-1 border-dotted border-gray-700 border-4 ">
-        <p>
-          <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      <div >
 
-        </p>
-        <p>
-          Teacher at Aarhustech
+        <p class="AboutText">
+          student at Aarhustech
 
         </p>
       </div>
     </template>
 
-  </WelcomeItem>
+    <template #imageHolder>
+        <img alt="caveman" class="profile" src="@/assets/kenneth.png"  />
+      </template>
+
+  </AboutUsItem>
+
+
 
 </template>
 

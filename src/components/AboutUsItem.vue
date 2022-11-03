@@ -5,12 +5,15 @@
     </i>
     <div class="cardborder">
 
-      <div class="details float-left ">
+      <div class="details float-left w-2/3">
         <h3>
           <slot name="heading"></slot>
         </h3>
         <slot name="text"></slot>
       </div>
+      <div class="imageHolder border-red-50 border-10 border-solid ">
+        <slot name="imageHolder" class="float-left"></slot>
+    </div>
     </div>
   </div>
 
